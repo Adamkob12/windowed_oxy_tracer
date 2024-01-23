@@ -1,0 +1,11 @@
+[package]
+name = "oxy_tracer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = {version = "0.24", default-features = false, features = ["rayon", "png"]}
+nalgebra = "0.32.3"
+rayon = "1.7.0"
+winit = "0.28"
+pixels = "0.13"
